@@ -1,0 +1,1320 @@
+//*********************************************SCRIPT DE CREACION DE DB Y COLECCIÓN *****************************************************//
+
+
+
+use ProyectoAlquiler
+db.createCollection("registro_Alquiler")
+
+
+
+//*******************************************************SCRIPT REGISTRO DE DOCUMENTOS*************************************************//
+
+
+
+
+db.registro_Alquiler.insert({
+"nombre" : "David", "Apellido" : "Perez", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-03-27", "fechaFinRenta" : "2021-03-30", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Azul" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Danny", "Apellido" : "Bedoya", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-09-07", "fechaFinRenta" : "2021-09-10", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "R-25","colorAuto" : "Celeste" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fredy", "apellido" : "Gavilan", "direccion" : "La lorena",
+"fehcaInicioRenta" : "2021-05-27", "fechaFinRenta" : "2021-05-30", "precioRentaDia" : "200",
+"auto": [
+{ "marcaAuto" : "Mercedes", "modeloAuto" : "Fligh","colorAuto" : "negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Edison", "apellido" : "Ayala", "direccion" : "Via Chone",
+"fehcaInicioRenta" : "2020-03-27", "fechaFinRenta" : "2020-03-30", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "Spark","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Andres", "apellido" : "Mercedes", "direccion" : "Rosales",
+"fehcaInicioRenta" : "2021-08-27", "fechaFinRenta" : "2021-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Logan","colorAuto" : "Grisl" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Juan", "Apellido" : "Garcia", "direccion" : "Santa Marta",
+"fehcaInicioRenta" : "2021-01-11", "fechaFinRenta" : "2021-01-15", "precioRentaDia" : "120",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "Spark","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Damian", "Apellido" : "Caicedo", "direccion" : "Via Quevedo",
+"fehcaInicioRenta" : "2021-05-07", "fechaFinRenta" : "2021-06-10", "precioRentaDia" : "110",
+"auto": [
+{ "marcaAuto" : "Ford", "modeloAuto" : "F50","colorAuto" : "Negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Frankil", "apellido" : "Gavilan", "direccion" : "La lorena",
+"fehcaInicioRenta" : "2020-02-27", "fechaFinRenta" : "2020-02-30", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Hiundai", "modeloAuto" : "V8","colorAuto" : "cyan" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Joffre", "apellido" : "Garcia", "direccion" : "Rumiñahui",
+"fehcaInicioRenta" : "2020-01-27", "fechaFinRenta" : "2020-01-30", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Franklin", "apellido" : "Piñares", "direccion" : "Juan Eulogio",
+"fehcaInicioRenta" : "2021-08-27", "fechaFinRenta" : "2021-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Megan","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Diego", "apellido" : "Reina", "direccion" : "Juan Eulogio",
+"fehcaInicioRenta" : "2021-07-27", "fechaFinRenta" : "2021-09}7-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Megan","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fabricio", "apellido" : "Mercedes", "direccion" : "Rosales",
+"fehcaInicioRenta" : "2020-08-27", "fechaFinRenta" : "2020-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Logan","colorAuto" : "Grisl" }]})
+ db.registro_Alquiler.insert({
+"nombre" : "Anthony", "Apellido" : "Villa", "direccion" : "Juan Eulogio",
+"fehcaInicioRenta" : "2021-05-11", "fechaFinRenta" : "2021-05-15", "precioRentaDia" : "120",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "Spark","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Andy", "Apellido" : "Garces", "direccion" : "Via Chone",
+"fehcaInicioRenta" : "2021-01-07", "fechaFinRenta" : "2021-06-10", "precioRentaDia" : "110",
+"auto": [
+{ "marcaAuto" : "Ford", "modeloAuto" : "F50","colorAuto" : "Negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Catherine", "apellido" : "Gomez", "direccion" : "La paquisha",
+"fehcaInicioRenta" : "2021-08-17", "fechaFinRenta" : "2021-08-18", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Hiundai", "modeloAuto" : "V8","colorAuto" : "cyan" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Carolina", "apellido" : "Flores", "direccion" : "Av Esmeraldas",
+"fehcaInicioRenta" : "2020-01-27", "fechaFinRenta" : "2020-01-30", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Joel", "apellido" : "Leon", "direccion" : "30 de julio",
+"fehcaInicioRenta" : "2021-08-27", "fechaFinRenta" : "2021-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Megan","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Ruben", "apellido" : "Moreira", "direccion" : "Rio lelia",
+"fehcaInicioRenta" : "2021-07-27", "fechaFinRenta" : "2021-09}7-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Megan","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "David", "Apellido" : "Perez", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-03-27", "fechaFinRenta" : "2021-03-30", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Azul" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Danny", "Apellido" : "Bedoya", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-09-07", "fechaFinRenta" : "2021-09-10", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "R-25","colorAuto" : "Celeste" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fredy", "apellido" : "Gavilan", "direccion" : "La lorena",
+"fehcaInicioRenta" : "2021-05-27", "fechaFinRenta" : "2021-05-30", "precioRentaDia" : "200",
+"auto": [
+{ "marcaAuto" : "Mercedes", "modeloAuto" : "Fligh","colorAuto" : "negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "David", "Apellido" : "Perez", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-03-27", "fechaFinRenta" : "2021-03-30", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Azul" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Danny", "Apellido" : "Bedoya", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-09-07", "fechaFinRenta" : "2021-09-10", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "R-25","colorAuto" : "Celeste" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fredy", "apellido" : "Gavilan", "direccion" : "La lorena",
+"fehcaInicioRenta" : "2021-05-27", "fechaFinRenta" : "2021-05-30", "precioRentaDia" : "200",
+"auto": [
+{ "marcaAuto" : "Mercedes", "modeloAuto" : "Fligh","colorAuto" : "negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "David", "Apellido" : "Perez", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-03-27", "fechaFinRenta" : "2021-03-30", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Azul" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Danny", "Apellido" : "Bedoya", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-09-07", "fechaFinRenta" : "2021-09-10", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "R-25","colorAuto" : "Celeste" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fredy", "apellido" : "Gavilan", "direccion" : "La lorena",
+"fehcaInicioRenta" : "2021-05-27", "fechaFinRenta" : "2021-05-30", "precioRentaDia" : "200",
+"auto": [
+{ "marcaAuto" : "Mercedes", "modeloAuto" : "Fligh","colorAuto" : "negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "David", "Apellido" : "Perez", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-03-27", "fechaFinRenta" : "2021-03-30", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Azul" }]})
+db.registro_Alquiler.insert({
+"nombre" : "David", "Apellido" : "Perez", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-03-27", "fechaFinRenta" : "2021-03-30", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Azul" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Danny", "Apellido" : "Bedoya", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-09-07", "fechaFinRenta" : "2021-09-10", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "R-25","colorAuto" : "Celeste" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fredy", "apellido" : "Gavilan", "direccion" : "La lorena",
+"fehcaInicioRenta" : "2021-05-27", "fechaFinRenta" : "2021-05-30", "precioRentaDia" : "200",
+"auto": [
+{ "marcaAuto" : "Mercedes", "modeloAuto" : "Fligh","colorAuto" : "negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Edison", "apellido" : "Ayala", "direccion" : "Via Chone",
+"fehcaInicioRenta" : "2020-03-27", "fechaFinRenta" : "2020-03-30", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "Spark","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Andres", "apellido" : "Mercedes", "direccion" : "Rosales",
+"fehcaInicioRenta" : "2021-08-27", "fechaFinRenta" : "2021-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Logan","colorAuto" : "Grisl" }]})
+db.registro_Alquiler.insert({
+"nombre" : "David", "Apellido" : "Perez", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-03-27", "fechaFinRenta" : "2021-03-30", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Azul" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Danny", "Apellido" : "Bedoya", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-09-07", "fechaFinRenta" : "2021-09-10", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "R-25","colorAuto" : "Celeste" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fredy", "apellido" : "Gavilan", "direccion" : "La lorena",
+"fehcaInicioRenta" : "2021-05-27", "fechaFinRenta" : "2021-05-30", "precioRentaDia" : "200",
+"auto": [
+{ "marcaAuto" : "Mercedes", "modeloAuto" : "Fligh","colorAuto" : "negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Edison", "apellido" : "Ayala", "direccion" : "Via Chone",
+"fehcaInicioRenta" : "2020-03-27", "fechaFinRenta" : "2020-03-30", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "Spark","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Andres", "apellido" : "Mercedes", "direccion" : "Rosales",
+"fehcaInicioRenta" : "2021-08-27", "fechaFinRenta" : "2021-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Logan","colorAuto" : "Grisl" }]})
+db.registro_Alquiler.insert({
+"nombre" : "David", "Apellido" : "Perez", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-03-27", "fechaFinRenta" : "2021-03-30", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Azul" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Danny", "Apellido" : "Bedoya", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-09-07", "fechaFinRenta" : "2021-09-10", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "R-25","colorAuto" : "Celeste" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fredy", "apellido" : "Gavilan", "direccion" : "La lorena",
+"fehcaInicioRenta" : "2021-05-27", "fechaFinRenta" : "2021-05-30", "precioRentaDia" : "200",
+"auto": [
+{ "marcaAuto" : "Mercedes", "modeloAuto" : "Fligh","colorAuto" : "negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Edison", "apellido" : "Ayala", "direccion" : "Via Chone",
+"fehcaInicioRenta" : "2020-03-27", "fechaFinRenta" : "2020-03-30", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "Spark","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Andres", "apellido" : "Mercedes", "direccion" : "Rosales",
+"fehcaInicioRenta" : "2021-08-27", "fechaFinRenta" : "2021-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Logan","colorAuto" : "Grisl" }]})
+db.registro_Alquiler.insert({
+"nombre" : "David", "Apellido" : "Perez", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-03-27", "fechaFinRenta" : "2021-03-30", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Azul" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Danny", "Apellido" : "Bedoya", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-09-07", "fechaFinRenta" : "2021-09-10", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "R-25","colorAuto" : "Celeste" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fredy", "apellido" : "Gavilan", "direccion" : "La lorena",
+"fehcaInicioRenta" : "2021-05-27", "fechaFinRenta" : "2021-05-30", "precioRentaDia" : "200",
+"auto": [
+{ "marcaAuto" : "Mercedes", "modeloAuto" : "Fligh","colorAuto" : "negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Edison", "apellido" : "Ayala", "direccion" : "Via Chone",
+"fehcaInicioRenta" : "2020-03-27", "fechaFinRenta" : "2020-03-30", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "Spark","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Andres", "apellido" : "Mercedes", "direccion" : "Rosales",
+"fehcaInicioRenta" : "2021-08-27", "fechaFinRenta" : "2021-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Logan","colorAuto" : "Grisl" }]})
+db.registro_Alquiler.insert({
+"nombre" : "David", "Apellido" : "Perez", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-03-27", "fechaFinRenta" : "2021-03-30", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Azul" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Danny", "Apellido" : "Bedoya", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-09-07", "fechaFinRenta" : "2021-09-10", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "R-25","colorAuto" : "Celeste" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fredy", "apellido" : "Gavilan", "direccion" : "La lorena",
+"fehcaInicioRenta" : "2021-05-27", "fechaFinRenta" : "2021-05-30", "precioRentaDia" : "200",
+"auto": [
+{ "marcaAuto" : "Mercedes", "modeloAuto" : "Fligh","colorAuto" : "negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Edison", "apellido" : "Ayala", "direccion" : "Via Chone",
+"fehcaInicioRenta" : "2020-03-27", "fechaFinRenta" : "2020-03-30", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "Spark","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Andres", "apellido" : "Mercedes", "direccion" : "Rosales",
+"fehcaInicioRenta" : "2021-08-27", "fechaFinRenta" : "2021-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Logan","colorAuto" : "Grisl" }]})
+db.registro_Alquiler.insert({
+"nombre" : "David", "Apellido" : "Perez", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-03-27", "fechaFinRenta" : "2021-03-30", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Azul" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Danny", "Apellido" : "Bedoya", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-09-07", "fechaFinRenta" : "2021-09-10", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "R-25","colorAuto" : "Celeste" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fredy", "apellido" : "Gavilan", "direccion" : "La lorena",
+"fehcaInicioRenta" : "2021-05-27", "fechaFinRenta" : "2021-05-30", "precioRentaDia" : "200",
+"auto": [
+{ "marcaAuto" : "Mercedes", "modeloAuto" : "Fligh","colorAuto" : "negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Edison", "apellido" : "Ayala", "direccion" : "Via Chone",
+"fehcaInicioRenta" : "2020-03-27", "fechaFinRenta" : "2020-03-30", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "Spark","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Andres", "apellido" : "Mercedes", "direccion" : "Rosales",
+"fehcaInicioRenta" : "2021-08-27", "fechaFinRenta" : "2021-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Logan","colorAuto" : "Grisl" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Andy", "Apellido" : "Garces", "direccion" : "Via Chone",
+"fehcaInicioRenta" : "2021-01-07", "fechaFinRenta" : "2021-06-10", "precioRentaDia" : "110",
+"auto": [
+{ "marcaAuto" : "Ford", "modeloAuto" : "F50","colorAuto" : "Negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Catherine", "apellido" : "Gomez", "direccion" : "La paquisha",
+"fehcaInicioRenta" : "2021-08-17", "fechaFinRenta" : "2021-08-18", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Hiundai", "modeloAuto" : "V8","colorAuto" : "cyan" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Carolina", "apellido" : "Flores", "direccion" : "Av Esmeraldas",
+"fehcaInicioRenta" : "2020-01-27", "fechaFinRenta" : "2020-01-30", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Joel", "apellido" : "Leon", "direccion" : "30 de julio",
+"fehcaInicioRenta" : "2021-08-27", "fechaFinRenta" : "2021-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Megan","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Andy", "Apellido" : "Garces", "direccion" : "Via Chone",
+"fehcaInicioRenta" : "2021-01-07", "fechaFinRenta" : "2021-06-10", "precioRentaDia" : "110",
+"auto": [
+{ "marcaAuto" : "Ford", "modeloAuto" : "F50","colorAuto" : "Negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Catherine", "apellido" : "Gomez", "direccion" : "La paquisha",
+"fehcaInicioRenta" : "2021-08-17", "fechaFinRenta" : "2021-08-18", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Hiundai", "modeloAuto" : "V8","colorAuto" : "cyan" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Carolina", "apellido" : "Flores", "direccion" : "Av Esmeraldas",
+"fehcaInicioRenta" : "2020-01-27", "fechaFinRenta" : "2020-01-30", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Joel", "apellido" : "Leon", "direccion" : "30 de julio",
+"fehcaInicioRenta" : "2021-08-27", "fechaFinRenta" : "2021-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Megan","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Andy", "Apellido" : "Garces", "direccion" : "Via Chone",
+"fehcaInicioRenta" : "2021-01-07", "fechaFinRenta" : "2021-06-10", "precioRentaDia" : "110",
+"auto": [
+{ "marcaAuto" : "Ford", "modeloAuto" : "F50","colorAuto" : "Negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Catherine", "apellido" : "Gomez", "direccion" : "La paquisha",
+"fehcaInicioRenta" : "2021-08-17", "fechaFinRenta" : "2021-08-18", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Hiundai", "modeloAuto" : "V8","colorAuto" : "cyan" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Carolina", "apellido" : "Flores", "direccion" : "Av Esmeraldas",
+"fehcaInicioRenta" : "2020-01-27", "fechaFinRenta" : "2020-01-30", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Joel", "apellido" : "Leon", "direccion" : "30 de julio",
+"fehcaInicioRenta" : "2021-08-27", "fechaFinRenta" : "2021-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Megan","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Andy", "Apellido" : "Garces", "direccion" : "Via Chone",
+"fehcaInicioRenta" : "2021-01-07", "fechaFinRenta" : "2021-06-10", "precioRentaDia" : "110",
+"auto": [
+{ "marcaAuto" : "Ford", "modeloAuto" : "F50","colorAuto" : "Negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Catherine", "apellido" : "Gomez", "direccion" : "La paquisha",
+"fehcaInicioRenta" : "2021-08-17", "fechaFinRenta" : "2021-08-18", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Hiundai", "modeloAuto" : "V8","colorAuto" : "cyan" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Carolina", "apellido" : "Flores", "direccion" : "Av Esmeraldas",
+"fehcaInicioRenta" : "2020-01-27", "fechaFinRenta" : "2020-01-30", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Joel", "apellido" : "Leon", "direccion" : "30 de julio",
+"fehcaInicioRenta" : "2021-08-27", "fechaFinRenta" : "2021-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Megan","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Andy", "Apellido" : "Garces", "direccion" : "Via Chone",
+"fehcaInicioRenta" : "2021-01-07", "fechaFinRenta" : "2021-06-10", "precioRentaDia" : "110",
+"auto": [
+{ "marcaAuto" : "Ford", "modeloAuto" : "F50","colorAuto" : "Negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Catherine", "apellido" : "Gomez", "direccion" : "La paquisha",
+"fehcaInicioRenta" : "2021-08-17", "fechaFinRenta" : "2021-08-18", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Hiundai", "modeloAuto" : "V8","colorAuto" : "cyan" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Carolina", "apellido" : "Flores", "direccion" : "Av Esmeraldas",
+"fehcaInicioRenta" : "2020-01-27", "fechaFinRenta" : "2020-01-30", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Joel", "apellido" : "Leon", "direccion" : "30 de julio",
+"fehcaInicioRenta" : "2021-08-27", "fechaFinRenta" : "2021-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Megan","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Andy", "Apellido" : "Garces", "direccion" : "Via Chone",
+"fehcaInicioRenta" : "2021-01-07", "fechaFinRenta" : "2021-06-10", "precioRentaDia" : "110",
+"auto": [
+{ "marcaAuto" : "Ford", "modeloAuto" : "F50","colorAuto" : "Negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Catherine", "apellido" : "Gomez", "direccion" : "La paquisha",
+"fehcaInicioRenta" : "2021-08-17", "fechaFinRenta" : "2021-08-18", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Hiundai", "modeloAuto" : "V8","colorAuto" : "cyan" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Carolina", "apellido" : "Flores", "direccion" : "Av Esmeraldas",
+"fehcaInicioRenta" : "2020-01-27", "fechaFinRenta" : "2020-01-30", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Joel", "apellido" : "Leon", "direccion" : "30 de julio",
+"fehcaInicioRenta" : "2021-08-27", "fechaFinRenta" : "2021-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Megan","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Danny", "Apellido" : "Bedoya", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-09-07", "fechaFinRenta" : "2021-09-10", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "R-25","colorAuto" : "Celeste" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fredy", "apellido" : "Gavilan", "direccion" : "La lorena",
+"fehcaInicioRenta" : "2021-05-27", "fechaFinRenta" : "2021-05-30", "precioRentaDia" : "200",
+"auto": [
+{ "marcaAuto" : "Mercedes", "modeloAuto" : "Fligh","colorAuto" : "negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "David", "Apellido" : "Perez", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-03-27", "fechaFinRenta" : "2021-03-30", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Azul" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Danny", "Apellido" : "Bedoya", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-09-07", "fechaFinRenta" : "2021-09-10", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "R-25","colorAuto" : "Celeste" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fredy", "apellido" : "Gavilan", "direccion" : "La lorena",
+"fehcaInicioRenta" : "2021-05-27", "fechaFinRenta" : "2021-05-30", "precioRentaDia" : "200",
+"auto": [
+{ "marcaAuto" : "Mercedes", "modeloAuto" : "Fligh","colorAuto" : "negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "David", "Apellido" : "Perez", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-03-27", "fechaFinRenta" : "2021-03-30", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Azul" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Danny", "Apellido" : "Bedoya", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-09-07", "fechaFinRenta" : "2021-09-10", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "R-25","colorAuto" : "Celeste" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fredy", "apellido" : "Gavilan", "direccion" : "La lorena",
+"fehcaInicioRenta" : "2021-05-27", "fechaFinRenta" : "2021-05-30", "precioRentaDia" : "200",
+"auto": [
+{ "marcaAuto" : "Mercedes", "modeloAuto" : "Fligh","colorAuto" : "negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "David", "Apellido" : "Perez", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-03-27", "fechaFinRenta" : "2021-03-30", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Azul" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Danny", "Apellido" : "Bedoya", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-09-07", "fechaFinRenta" : "2021-09-10", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "R-25","colorAuto" : "Celeste" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fredy", "apellido" : "Gavilan", "direccion" : "La lorena",
+"fehcaInicioRenta" : "2021-05-27", "fechaFinRenta" : "2021-05-30", "precioRentaDia" : "200",
+"auto": [
+{ "marcaAuto" : "Mercedes", "modeloAuto" : "Fligh","colorAuto" : "negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "David", "Apellido" : "Perez", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-03-27", "fechaFinRenta" : "2021-03-30", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Azul" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Danny", "Apellido" : "Bedoya", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-09-07", "fechaFinRenta" : "2021-09-10", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "R-25","colorAuto" : "Celeste" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fredy", "apellido" : "Gavilan", "direccion" : "La lorena",
+"fehcaInicioRenta" : "2021-05-27", "fechaFinRenta" : "2021-05-30", "precioRentaDia" : "200",
+"auto": [
+{ "marcaAuto" : "Mercedes", "modeloAuto" : "Fligh","colorAuto" : "negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "David", "Apellido" : "Perez", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-03-27", "fechaFinRenta" : "2021-03-30", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Azul" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fabricio", "apellido" : "Mercedes", "direccion" : "Rosales",
+"fehcaInicioRenta" : "2020-08-27", "fechaFinRenta" : "2020-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Logan","colorAuto" : "Grisl" }]})
+ db.registro_Alquiler.insert({
+"nombre" : "Anthony", "Apellido" : "Villa", "direccion" : "Juan Eulogio",
+"fehcaInicioRenta" : "2021-05-11", "fechaFinRenta" : "2021-05-15", "precioRentaDia" : "120",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "Spark","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fabricio", "apellido" : "Mercedes", "direccion" : "Rosales",
+"fehcaInicioRenta" : "2020-08-27", "fechaFinRenta" : "2020-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Logan","colorAuto" : "Grisl" }]})
+ db.registro_Alquiler.insert({
+"nombre" : "Anthony", "Apellido" : "Villa", "direccion" : "Juan Eulogio",
+"fehcaInicioRenta" : "2021-05-11", "fechaFinRenta" : "2021-05-15", "precioRentaDia" : "120",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "Spark","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fabricio", "apellido" : "Mercedes", "direccion" : "Rosales",
+"fehcaInicioRenta" : "2020-08-27", "fechaFinRenta" : "2020-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Logan","colorAuto" : "Grisl" }]})
+ db.registro_Alquiler.insert({
+"nombre" : "Anthony", "Apellido" : "Villa", "direccion" : "Juan Eulogio",
+"fehcaInicioRenta" : "2021-05-11", "fechaFinRenta" : "2021-05-15", "precioRentaDia" : "120",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "Spark","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fabricio", "apellido" : "Mercedes", "direccion" : "Rosales",
+"fehcaInicioRenta" : "2020-08-27", "fechaFinRenta" : "2020-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Logan","colorAuto" : "Grisl" }]})
+ db.registro_Alquiler.insert({
+"nombre" : "Anthony", "Apellido" : "Villa", "direccion" : "Juan Eulogio",
+"fehcaInicioRenta" : "2021-05-11", "fechaFinRenta" : "2021-05-15", "precioRentaDia" : "120",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "Spark","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fabricio", "apellido" : "Mercedes", "direccion" : "Rosales",
+"fehcaInicioRenta" : "2020-08-27", "fechaFinRenta" : "2020-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Logan","colorAuto" : "Grisl" }]})
+ db.registro_Alquiler.insert({
+"nombre" : "Anthony", "Apellido" : "Villa", "direccion" : "Juan Eulogio",
+"fehcaInicioRenta" : "2021-05-11", "fechaFinRenta" : "2021-05-15", "precioRentaDia" : "120",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "Spark","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fabricio", "apellido" : "Mercedes", "direccion" : "Rosales",
+"fehcaInicioRenta" : "2020-08-27", "fechaFinRenta" : "2020-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Logan","colorAuto" : "Grisl" }]})
+ db.registro_Alquiler.insert({
+"nombre" : "Anthony", "Apellido" : "Villa", "direccion" : "Juan Eulogio",
+"fehcaInicioRenta" : "2021-05-11", "fechaFinRenta" : "2021-05-15", "precioRentaDia" : "120",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "Spark","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fabricio", "apellido" : "Mercedes", "direccion" : "Rosales",
+"fehcaInicioRenta" : "2020-08-27", "fechaFinRenta" : "2020-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Logan","colorAuto" : "Grisl" }]})
+ db.registro_Alquiler.insert({
+"nombre" : "Anthony", "Apellido" : "Villa", "direccion" : "Juan Eulogio",
+"fehcaInicioRenta" : "2021-05-11", "fechaFinRenta" : "2021-05-15", "precioRentaDia" : "120",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "Spark","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Catherine", "apellido" : "Gomez", "direccion" : "La paquisha",
+"fehcaInicioRenta" : "2021-08-17", "fechaFinRenta" : "2021-08-18", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Hiundai", "modeloAuto" : "V8","colorAuto" : "cyan" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Carolina", "apellido" : "Flores", "direccion" : "Av Esmeraldas",
+"fehcaInicioRenta" : "2020-01-27", "fechaFinRenta" : "2020-01-30", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Joel", "apellido" : "Leon", "direccion" : "30 de julio",
+"fehcaInicioRenta" : "2021-08-27", "fechaFinRenta" : "2021-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Megan","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Andy", "Apellido" : "Garces", "direccion" : "Via Chone",
+"fehcaInicioRenta" : "2021-01-07", "fechaFinRenta" : "2021-06-10", "precioRentaDia" : "110",
+"auto": [
+{ "marcaAuto" : "Ford", "modeloAuto" : "F50","colorAuto" : "Negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Catherine", "apellido" : "Gomez", "direccion" : "La paquisha",
+"fehcaInicioRenta" : "2021-08-17", "fechaFinRenta" : "2021-08-18", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Hiundai", "modeloAuto" : "V8","colorAuto" : "cyan" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Carolina", "apellido" : "Flores", "direccion" : "Av Esmeraldas",
+"fehcaInicioRenta" : "2020-01-27", "fechaFinRenta" : "2020-01-30", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Joel", "apellido" : "Leon", "direccion" : "30 de julio",
+"fehcaInicioRenta" : "2021-08-27", "fechaFinRenta" : "2021-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Megan","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Andy", "Apellido" : "Garces", "direccion" : "Via Chone",
+"fehcaInicioRenta" : "2021-01-07", "fechaFinRenta" : "2021-06-10", "precioRentaDia" : "110",
+"auto": [
+{ "marcaAuto" : "Ford", "modeloAuto" : "F50","colorAuto" : "Negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Catherine", "apellido" : "Gomez", "direccion" : "La paquisha",
+"fehcaInicioRenta" : "2021-08-17", "fechaFinRenta" : "2021-08-18", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Hiundai", "modeloAuto" : "V8","colorAuto" : "cyan" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Carolina", "apellido" : "Flores", "direccion" : "Av Esmeraldas",
+"fehcaInicioRenta" : "2020-01-27", "fechaFinRenta" : "2020-01-30", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Joel", "apellido" : "Leon", "direccion" : "30 de julio",
+"fehcaInicioRenta" : "2021-08-27", "fechaFinRenta" : "2021-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Megan","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Danny", "Apellido" : "Bedoya", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-09-07", "fechaFinRenta" : "2021-09-10", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "R-25","colorAuto" : "Celeste" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fredy", "apellido" : "Gavilan", "direccion" : "La lorena",
+"fehcaInicioRenta" : "2021-05-27", "fechaFinRenta" : "2021-05-30", "precioRentaDia" : "200",
+"auto": [
+{ "marcaAuto" : "Mercedes", "modeloAuto" : "Fligh","colorAuto" : "negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "David", "Apellido" : "Perez", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-03-27", "fechaFinRenta" : "2021-03-30", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Azul" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Danny", "Apellido" : "Bedoya", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-09-07", "fechaFinRenta" : "2021-09-10", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "R-25","colorAuto" : "Celeste" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fredy", "apellido" : "Gavilan", "direccion" : "La lorena",
+"fehcaInicioRenta" : "2021-05-27", "fechaFinRenta" : "2021-05-30", "precioRentaDia" : "200",
+"auto": [
+{ "marcaAuto" : "Mercedes", "modeloAuto" : "Fligh","colorAuto" : "negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "David", "Apellido" : "Perez", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-03-27", "fechaFinRenta" : "2021-03-30", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Azul" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Danny", "Apellido" : "Bedoya", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-09-07", "fechaFinRenta" : "2021-09-10", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "R-25","colorAuto" : "Celeste" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fredy", "apellido" : "Gavilan", "direccion" : "La lorena",
+"fehcaInicioRenta" : "2021-05-27", "fechaFinRenta" : "2021-05-30", "precioRentaDia" : "200",
+"auto": [
+{ "marcaAuto" : "Mercedes", "modeloAuto" : "Fligh","colorAuto" : "negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "David", "Apellido" : "Perez", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-03-27", "fechaFinRenta" : "2021-03-30", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Azul" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Danny", "Apellido" : "Bedoya", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-09-07", "fechaFinRenta" : "2021-09-10", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "R-25","colorAuto" : "Celeste" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fredy", "apellido" : "Gavilan", "direccion" : "La lorena",
+"fehcaInicioRenta" : "2021-05-27", "fechaFinRenta" : "2021-05-30", "precioRentaDia" : "200",
+"auto": [
+{ "marcaAuto" : "Mercedes", "modeloAuto" : "Fligh","colorAuto" : "negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "David", "Apellido" : "Perez", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-03-27", "fechaFinRenta" : "2021-03-30", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Azul" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Danny", "Apellido" : "Bedoya", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-09-07", "fechaFinRenta" : "2021-09-10", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "R-25","colorAuto" : "Celeste" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fredy", "apellido" : "Gavilan", "direccion" : "La lorena",
+"fehcaInicioRenta" : "2021-05-27", "fechaFinRenta" : "2021-05-30", "precioRentaDia" : "200",
+"auto": [
+{ "marcaAuto" : "Mercedes", "modeloAuto" : "Fligh","colorAuto" : "negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "David", "Apellido" : "Perez", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-03-27", "fechaFinRenta" : "2021-03-30", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Azul" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fabricio", "apellido" : "Mercedes", "direccion" : "Rosales",
+"fehcaInicioRenta" : "2020-08-27", "fechaFinRenta" : "2020-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Logan","colorAuto" : "Grisl" }]})
+ db.registro_Alquiler.insert({
+"nombre" : "Anthony", "Apellido" : "Villa", "direccion" : "Juan Eulogio",
+"fehcaInicioRenta" : "2021-05-11", "fechaFinRenta" : "2021-05-15", "precioRentaDia" : "120",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "Spark","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fabricio", "apellido" : "Mercedes", "direccion" : "Rosales",
+"fehcaInicioRenta" : "2020-08-27", "fechaFinRenta" : "2020-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Logan","colorAuto" : "Grisl" }]})
+ db.registro_Alquiler.insert({
+"nombre" : "Anthony", "Apellido" : "Villa", "direccion" : "Juan Eulogio",
+"fehcaInicioRenta" : "2021-05-11", "fechaFinRenta" : "2021-05-15", "precioRentaDia" : "120",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "Spark","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fabricio", "apellido" : "Mercedes", "direccion" : "Rosales",
+"fehcaInicioRenta" : "2020-08-27", "fechaFinRenta" : "2020-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Logan","colorAuto" : "Grisl" }]})
+ db.registro_Alquiler.insert({
+"nombre" : "Anthony", "Apellido" : "Villa", "direccion" : "Juan Eulogio",
+"fehcaInicioRenta" : "2021-05-11", "fechaFinRenta" : "2021-05-15", "precioRentaDia" : "120",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "Spark","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fabricio", "apellido" : "Mercedes", "direccion" : "Rosales",
+"fehcaInicioRenta" : "2020-08-27", "fechaFinRenta" : "2020-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Logan","colorAuto" : "Grisl" }]})
+ db.registro_Alquiler.insert({
+"nombre" : "Anthony", "Apellido" : "Villa", "direccion" : "Juan Eulogio",
+"fehcaInicioRenta" : "2021-05-11", "fechaFinRenta" : "2021-05-15", "precioRentaDia" : "120",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "Spark","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fabricio", "apellido" : "Mercedes", "direccion" : "Rosales",
+"fehcaInicioRenta" : "2020-08-27", "fechaFinRenta" : "2020-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Logan","colorAuto" : "Grisl" }]})
+ db.registro_Alquiler.insert({
+"nombre" : "Anthony", "Apellido" : "Villa", "direccion" : "Juan Eulogio",
+"fehcaInicioRenta" : "2021-05-11", "fechaFinRenta" : "2021-05-15", "precioRentaDia" : "120",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "Spark","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fabricio", "apellido" : "Mercedes", "direccion" : "Rosales",
+"fehcaInicioRenta" : "2020-08-27", "fechaFinRenta" : "2020-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Logan","colorAuto" : "Grisl" }]})
+ db.registro_Alquiler.insert({
+"nombre" : "Anthony", "Apellido" : "Villa", "direccion" : "Juan Eulogio",
+"fehcaInicioRenta" : "2021-05-11", "fechaFinRenta" : "2021-05-15", "precioRentaDia" : "120",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "Spark","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fabricio", "apellido" : "Mercedes", "direccion" : "Rosales",
+"fehcaInicioRenta" : "2020-08-27", "fechaFinRenta" : "2020-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Logan","colorAuto" : "Grisl" }]})
+ db.registro_Alquiler.insert({
+"nombre" : "Anthony", "Apellido" : "Villa", "direccion" : "Juan Eulogio",
+"fehcaInicioRenta" : "2021-05-11", "fechaFinRenta" : "2021-05-15", "precioRentaDia" : "120",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "Spark","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Danny", "Apellido" : "Bedoya", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-09-07", "fechaFinRenta" : "2021-09-10", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "R-25","colorAuto" : "Celeste" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fredy", "apellido" : "Gavilan", "direccion" : "La lorena",
+"fehcaInicioRenta" : "2021-05-27", "fechaFinRenta" : "2021-05-30", "precioRentaDia" : "200",
+"auto": [
+{ "marcaAuto" : "Mercedes", "modeloAuto" : "Fligh","colorAuto" : "negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "David", "Apellido" : "Perez", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-03-27", "fechaFinRenta" : "2021-03-30", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Azul" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Danny", "Apellido" : "Bedoya", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-09-07", "fechaFinRenta" : "2021-09-10", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "R-25","colorAuto" : "Celeste" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fredy", "apellido" : "Gavilan", "direccion" : "La lorena",
+"fehcaInicioRenta" : "2021-05-27", "fechaFinRenta" : "2021-05-30", "precioRentaDia" : "200",
+"auto": [
+{ "marcaAuto" : "Mercedes", "modeloAuto" : "Fligh","colorAuto" : "negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "David", "Apellido" : "Perez", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-03-27", "fechaFinRenta" : "2021-03-30", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Azul" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Danny", "Apellido" : "Bedoya", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-09-07", "fechaFinRenta" : "2021-09-10", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "R-25","colorAuto" : "Celeste" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fredy", "apellido" : "Gavilan", "direccion" : "La lorena",
+"fehcaInicioRenta" : "2021-05-27", "fechaFinRenta" : "2021-05-30", "precioRentaDia" : "200",
+"auto": [
+{ "marcaAuto" : "Mercedes", "modeloAuto" : "Fligh","colorAuto" : "negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "David", "Apellido" : "Perez", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-03-27", "fechaFinRenta" : "2021-03-30", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Azul" }]})
+db.registro_Alquiler.insert({
+"nombre" : "David", "Apellido" : "Perez", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-03-27", "fechaFinRenta" : "2021-03-30", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Azul" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Danny", "Apellido" : "Bedoya", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-09-07", "fechaFinRenta" : "2021-09-10", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "R-25","colorAuto" : "Celeste" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fredy", "apellido" : "Gavilan", "direccion" : "La lorena",
+"fehcaInicioRenta" : "2021-05-27", "fechaFinRenta" : "2021-05-30", "precioRentaDia" : "200",
+"auto": [
+{ "marcaAuto" : "Mercedes", "modeloAuto" : "Fligh","colorAuto" : "negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Edison", "apellido" : "Ayala", "direccion" : "Via Chone",
+"fehcaInicioRenta" : "2020-03-27", "fechaFinRenta" : "2020-03-30", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "Spark","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Andres", "apellido" : "Mercedes", "direccion" : "Rosales",
+"fehcaInicioRenta" : "2021-08-27", "fechaFinRenta" : "2021-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Logan","colorAuto" : "Grisl" }]})
+db.registro_Alquiler.insert({
+"nombre" : "David", "Apellido" : "Perez", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-03-27", "fechaFinRenta" : "2021-03-30", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Azul" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Danny", "Apellido" : "Bedoya", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-09-07", "fechaFinRenta" : "2021-09-10", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "R-25","colorAuto" : "Celeste" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fredy", "apellido" : "Gavilan", "direccion" : "La lorena",
+"fehcaInicioRenta" : "2021-05-27", "fechaFinRenta" : "2021-05-30", "precioRentaDia" : "200",
+"auto": [
+{ "marcaAuto" : "Mercedes", "modeloAuto" : "Fligh","colorAuto" : "negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Edison", "apellido" : "Ayala", "direccion" : "Via Chone",
+"fehcaInicioRenta" : "2020-03-27", "fechaFinRenta" : "2020-03-30", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "Spark","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Andres", "apellido" : "Mercedes", "direccion" : "Rosales",
+"fehcaInicioRenta" : "2021-08-27", "fechaFinRenta" : "2021-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Logan","colorAuto" : "Grisl" }]})
+db.registro_Alquiler.insert({
+"nombre" : "David", "Apellido" : "Perez", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-03-27", "fechaFinRenta" : "2021-03-30", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Azul" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Danny", "Apellido" : "Bedoya", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-09-07", "fechaFinRenta" : "2021-09-10", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "R-25","colorAuto" : "Celeste" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fredy", "apellido" : "Gavilan", "direccion" : "La lorena",
+"fehcaInicioRenta" : "2021-05-27", "fechaFinRenta" : "2021-05-30", "precioRentaDia" : "200",
+"auto": [
+{ "marcaAuto" : "Mercedes", "modeloAuto" : "Fligh","colorAuto" : "negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Edison", "apellido" : "Ayala", "direccion" : "Via Chone",
+"fehcaInicioRenta" : "2020-03-27", "fechaFinRenta" : "2020-03-30", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "Spark","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Andres", "apellido" : "Mercedes", "direccion" : "Rosales",
+"fehcaInicioRenta" : "2021-08-27", "fechaFinRenta" : "2021-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Logan","colorAuto" : "Grisl" }]})
+db.registro_Alquiler.insert({
+"nombre" : "David", "Apellido" : "Perez", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-03-27", "fechaFinRenta" : "2021-03-30", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Azul" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Danny", "Apellido" : "Bedoya", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-09-07", "fechaFinRenta" : "2021-09-10", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "R-25","colorAuto" : "Celeste" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fredy", "apellido" : "Gavilan", "direccion" : "La lorena",
+"fehcaInicioRenta" : "2021-05-27", "fechaFinRenta" : "2021-05-30", "precioRentaDia" : "200",
+"auto": [
+{ "marcaAuto" : "Mercedes", "modeloAuto" : "Fligh","colorAuto" : "negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Edison", "apellido" : "Ayala", "direccion" : "Via Chone",
+"fehcaInicioRenta" : "2020-03-27", "fechaFinRenta" : "2020-03-30", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "Spark","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Andres", "apellido" : "Mercedes", "direccion" : "Rosales",
+"fehcaInicioRenta" : "2021-08-27", "fechaFinRenta" : "2021-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Logan","colorAuto" : "Grisl" }]})
+db.registro_Alquiler.insert({
+"nombre" : "David", "Apellido" : "Perez", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-03-27", "fechaFinRenta" : "2021-03-30", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Azul" }]})
+db.registro_Alquiler.insert({
+"nombre" : "David", "Apellido" : "Perez", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-03-27", "fechaFinRenta" : "2021-03-30", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Azul" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Danny", "Apellido" : "Bedoya", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-09-07", "fechaFinRenta" : "2021-09-10", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "R-25","colorAuto" : "Celeste" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fredy", "apellido" : "Gavilan", "direccion" : "La lorena",
+"fehcaInicioRenta" : "2021-05-27", "fechaFinRenta" : "2021-05-30", "precioRentaDia" : "200",
+"auto": [
+{ "marcaAuto" : "Mercedes", "modeloAuto" : "Fligh","colorAuto" : "negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Edison", "apellido" : "Ayala", "direccion" : "Via Chone",
+"fehcaInicioRenta" : "2020-03-27", "fechaFinRenta" : "2020-03-30", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "Spark","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Andres", "apellido" : "Mercedes", "direccion" : "Rosales",
+"fehcaInicioRenta" : "2021-08-27", "fechaFinRenta" : "2021-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Logan","colorAuto" : "Grisl" }]})
+ db.registro_Alquiler.insert({
+"nombre" : "Juan", "Apellido" : "Garcia", "direccion" : "Santa Marta",
+"fehcaInicioRenta" : "2021-01-11", "fechaFinRenta" : "2021-01-15", "precioRentaDia" : "120",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "Spark","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Damian", "Apellido" : "Caicedo", "direccion" : "Via Quevedo",
+"fehcaInicioRenta" : "2021-05-07", "fechaFinRenta" : "2021-06-10", "precioRentaDia" : "110",
+"auto": [
+{ "marcaAuto" : "Ford", "modeloAuto" : "F50","colorAuto" : "Negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Frankil", "apellido" : "Gavilan", "direccion" : "La lorena",
+"fehcaInicioRenta" : "2020-02-27", "fechaFinRenta" : "2020-02-30", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Hiundai", "modeloAuto" : "V8","colorAuto" : "cyan" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Joffre", "apellido" : "Garcia", "direccion" : "Rumiñahui",
+"fehcaInicioRenta" : "2020-01-27", "fechaFinRenta" : "2020-01-30", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Franklin", "apellido" : "Piñares", "direccion" : "Juan Eulogio",
+"fehcaInicioRenta" : "2021-08-27", "fechaFinRenta" : "2021-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Megan","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Catherine", "apellido" : "Gomez", "direccion" : "La paquisha",
+"fehcaInicioRenta" : "2021-08-17", "fechaFinRenta" : "2021-08-18", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Hiundai", "modeloAuto" : "V8","colorAuto" : "cyan" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Carolina", "apellido" : "Flores", "direccion" : "Av Esmeraldas",
+"fehcaInicioRenta" : "2020-01-27", "fechaFinRenta" : "2020-01-30", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Joel", "apellido" : "Leon", "direccion" : "30 de julio",
+"fehcaInicioRenta" : "2021-08-27", "fechaFinRenta" : "2021-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Megan","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Andy", "Apellido" : "Garces", "direccion" : "Via Chone",
+"fehcaInicioRenta" : "2021-01-07", "fechaFinRenta" : "2021-06-10", "precioRentaDia" : "110",
+"auto": [
+{ "marcaAuto" : "Ford", "modeloAuto" : "F50","colorAuto" : "Negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Catherine", "apellido" : "Gomez", "direccion" : "La paquisha",
+"fehcaInicioRenta" : "2021-08-17", "fechaFinRenta" : "2021-08-18", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Hiundai", "modeloAuto" : "V8","colorAuto" : "cyan" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Carolina", "apellido" : "Flores", "direccion" : "Av Esmeraldas",
+"fehcaInicioRenta" : "2020-01-27", "fechaFinRenta" : "2020-01-30", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Joel", "apellido" : "Leon", "direccion" : "30 de julio",
+"fehcaInicioRenta" : "2021-08-27", "fechaFinRenta" : "2021-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Megan","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Andy", "Apellido" : "Garces", "direccion" : "Via Chone",
+"fehcaInicioRenta" : "2021-01-07", "fechaFinRenta" : "2021-06-10", "precioRentaDia" : "110",
+"auto": [
+{ "marcaAuto" : "Ford", "modeloAuto" : "F50","colorAuto" : "Negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Catherine", "apellido" : "Gomez", "direccion" : "La paquisha",
+"fehcaInicioRenta" : "2021-08-17", "fechaFinRenta" : "2021-08-18", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Hiundai", "modeloAuto" : "V8","colorAuto" : "cyan" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Carolina", "apellido" : "Flores", "direccion" : "Av Esmeraldas",
+"fehcaInicioRenta" : "2020-01-27", "fechaFinRenta" : "2020-01-30", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Joel", "apellido" : "Leon", "direccion" : "30 de julio",
+"fehcaInicioRenta" : "2021-08-27", "fechaFinRenta" : "2021-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Megan","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Danny", "Apellido" : "Bedoya", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-09-07", "fechaFinRenta" : "2021-09-10", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "R-25","colorAuto" : "Celeste" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fredy", "apellido" : "Gavilan", "direccion" : "La lorena",
+"fehcaInicioRenta" : "2021-05-27", "fechaFinRenta" : "2021-05-30", "precioRentaDia" : "200",
+"auto": [
+{ "marcaAuto" : "Mercedes", "modeloAuto" : "Fligh","colorAuto" : "negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "David", "Apellido" : "Perez", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-03-27", "fechaFinRenta" : "2021-03-30", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Azul" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Danny", "Apellido" : "Bedoya", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-09-07", "fechaFinRenta" : "2021-09-10", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "R-25","colorAuto" : "Celeste" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fredy", "apellido" : "Gavilan", "direccion" : "La lorena",
+"fehcaInicioRenta" : "2021-05-27", "fechaFinRenta" : "2021-05-30", "precioRentaDia" : "200",
+"auto": [
+{ "marcaAuto" : "Mercedes", "modeloAuto" : "Fligh","colorAuto" : "negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Juan", "Apellido" : "Garcia", "direccion" : "Santa Marta",
+"fehcaInicioRenta" : "2021-01-11", "fechaFinRenta" : "2021-01-15", "precioRentaDia" : "120",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "Spark","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Damian", "Apellido" : "Caicedo", "direccion" : "Via Quevedo",
+"fehcaInicioRenta" : "2021-05-07", "fechaFinRenta" : "2021-06-10", "precioRentaDia" : "110",
+"auto": [
+{ "marcaAuto" : "Ford", "modeloAuto" : "F50","colorAuto" : "Negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Frankil", "apellido" : "Gavilan", "direccion" : "La lorena",
+"fehcaInicioRenta" : "2020-02-27", "fechaFinRenta" : "2020-02-30", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Hiundai", "modeloAuto" : "V8","colorAuto" : "cyan" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Joffre", "apellido" : "Garcia", "direccion" : "Rumiñahui",
+"fehcaInicioRenta" : "2020-01-27", "fechaFinRenta" : "2020-01-30", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Franklin", "apellido" : "Piñares", "direccion" : "Juan Eulogio",
+"fehcaInicioRenta" : "2021-08-27", "fechaFinRenta" : "2021-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Megan","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Diego", "apellido" : "Reina", "direccion" : "Juan Eulogio",
+"fehcaInicioRenta" : "2021-07-27", "fechaFinRenta" : "2021-09}7-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Megan","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fabricio", "apellido" : "Mercedes", "direccion" : "Rosales",
+"fehcaInicioRenta" : "2020-08-27", "fechaFinRenta" : "2020-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Logan","colorAuto" : "Grisl" }]})
+ db.registro_Alquiler.insert({
+"nombre" : "Anthony", "Apellido" : "Villa", "direccion" : "Juan Eulogio",
+"fehcaInicioRenta" : "2021-05-11", "fechaFinRenta" : "2021-05-15", "precioRentaDia" : "120",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "Spark","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Andy", "Apellido" : "Garces", "direccion" : "Via Chone",
+"fehcaInicioRenta" : "2021-01-07", "fechaFinRenta" : "2021-06-10", "precioRentaDia" : "110",
+"auto": [
+{ "marcaAuto" : "Ford", "modeloAuto" : "F50","colorAuto" : "Negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Catherine", "apellido" : "Gomez", "direccion" : "La paquisha",
+"fehcaInicioRenta" : "2021-08-17", "fechaFinRenta" : "2021-08-18", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Hiundai", "modeloAuto" : "V8","colorAuto" : "cyan" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Carolina", "apellido" : "Flores", "direccion" : "Av Esmeraldas",
+"fehcaInicioRenta" : "2020-01-27", "fechaFinRenta" : "2020-01-30", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Joel", "apellido" : "Leon", "direccion" : "30 de julio",
+"fehcaInicioRenta" : "2021-08-27", "fechaFinRenta" : "2021-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Megan","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Ruben", "apellido" : "Moreira", "direccion" : "Rio lelia",
+"fehcaInicioRenta" : "2021-07-27", "fechaFinRenta" : "2021-09}7-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Megan","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "David", "Apellido" : "Perez", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-03-27", "fechaFinRenta" : "2021-03-30", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Azul" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Danny", "Apellido" : "Bedoya", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-09-07", "fechaFinRenta" : "2021-09-10", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "R-25","colorAuto" : "Celeste" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fredy", "apellido" : "Gavilan", "direccion" : "La lorena",
+"fehcaInicioRenta" : "2021-05-27", "fechaFinRenta" : "2021-05-30", "precioRentaDia" : "200",
+"auto": [
+{ "marcaAuto" : "Mercedes", "modeloAuto" : "Fligh","colorAuto" : "negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "David", "Apellido" : "Perez", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-03-27", "fechaFinRenta" : "2021-03-30", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Azul" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Danny", "Apellido" : "Bedoya", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-09-07", "fechaFinRenta" : "2021-09-10", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "R-25","colorAuto" : "Celeste" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fredy", "apellido" : "Gavilan", "direccion" : "La lorena",
+"fehcaInicioRenta" : "2021-05-27", "fechaFinRenta" : "2021-05-30", "precioRentaDia" : "200",
+"auto": [
+{ "marcaAuto" : "Mercedes", "modeloAuto" : "Fligh","colorAuto" : "negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "David", "Apellido" : "Perez", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-03-27", "fechaFinRenta" : "2021-03-30", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Azul" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Danny", "Apellido" : "Bedoya", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-09-07", "fechaFinRenta" : "2021-09-10", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "R-25","colorAuto" : "Celeste" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fredy", "apellido" : "Gavilan", "direccion" : "La lorena",
+"fehcaInicioRenta" : "2021-05-27", "fechaFinRenta" : "2021-05-30", "precioRentaDia" : "200",
+"auto": [
+{ "marcaAuto" : "Mercedes", "modeloAuto" : "Fligh","colorAuto" : "negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "David", "Apellido" : "Perez", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-03-27", "fechaFinRenta" : "2021-03-30", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Azul" }]})
+db.registro_Alquiler.insert({
+"nombre" : "David", "Apellido" : "Perez", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-03-27", "fechaFinRenta" : "2021-03-30", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Azul" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Danny", "Apellido" : "Bedoya", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-09-07", "fechaFinRenta" : "2021-09-10", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "R-25","colorAuto" : "Celeste" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fredy", "apellido" : "Gavilan", "direccion" : "La lorena",
+"fehcaInicioRenta" : "2021-05-27", "fechaFinRenta" : "2021-05-30", "precioRentaDia" : "200",
+"auto": [
+{ "marcaAuto" : "Mercedes", "modeloAuto" : "Fligh","colorAuto" : "negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Edison", "apellido" : "Ayala", "direccion" : "Via Chone",
+"fehcaInicioRenta" : "2020-03-27", "fechaFinRenta" : "2020-03-30", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "Spark","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Andres", "apellido" : "Mercedes", "direccion" : "Rosales",
+"fehcaInicioRenta" : "2021-08-27", "fechaFinRenta" : "2021-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Logan","colorAuto" : "Grisl" }]})
+db.registro_Alquiler.insert({
+"nombre" : "David", "Apellido" : "Perez", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-03-27", "fechaFinRenta" : "2021-03-30", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Azul" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fredy", "apellido" : "Gavilan", "direccion" : "La lorena",
+"fehcaInicioRenta" : "2021-05-27", "fechaFinRenta" : "2021-05-30", "precioRentaDia" : "200",
+"auto": [
+{ "marcaAuto" : "Mercedes", "modeloAuto" : "Fligh","colorAuto" : "negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "David", "Apellido" : "Perez", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-03-27", "fechaFinRenta" : "2021-03-30", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Azul" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Danny", "Apellido" : "Bedoya", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-09-07", "fechaFinRenta" : "2021-09-10", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "R-25","colorAuto" : "Celeste" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fredy", "apellido" : "Gavilan", "direccion" : "La lorena",
+"fehcaInicioRenta" : "2021-05-27", "fechaFinRenta" : "2021-05-30", "precioRentaDia" : "200",
+"auto": [
+{ "marcaAuto" : "Mercedes", "modeloAuto" : "Fligh","colorAuto" : "negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "David", "Apellido" : "Perez", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-03-27", "fechaFinRenta" : "2021-03-30", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Azul" }]})
+db.registro_Alquiler.insert({
+"nombre" : "David", "Apellido" : "Perez", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-03-27", "fechaFinRenta" : "2021-03-30", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Azul" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Danny", "Apellido" : "Bedoya", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-09-07", "fechaFinRenta" : "2021-09-10", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "R-25","colorAuto" : "Celeste" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fredy", "apellido" : "Gavilan", "direccion" : "La lorena",
+"fehcaInicioRenta" : "2021-05-27", "fechaFinRenta" : "2021-05-30", "precioRentaDia" : "200",
+"auto": [
+{ "marcaAuto" : "Mercedes", "modeloAuto" : "Fligh","colorAuto" : "negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Edison", "apellido" : "Ayala", "direccion" : "Via Chone",
+"fehcaInicioRenta" : "2020-03-27", "fechaFinRenta" : "2020-03-30", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "Spark","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Andres", "apellido" : "Mercedes", "direccion" : "Rosales",
+"fehcaInicioRenta" : "2021-08-27", "fechaFinRenta" : "2021-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Logan","colorAuto" : "Grisl" }]})
+db.registro_Alquiler.insert({
+"nombre" : "David", "Apellido" : "Perez", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-03-27", "fechaFinRenta" : "2021-03-30", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Azul" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Danny", "Apellido" : "Bedoya", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-09-07", "fechaFinRenta" : "2021-09-10", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "R-25","colorAuto" : "Celeste" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fredy", "apellido" : "Gavilan", "direccion" : "La lorena",
+"fehcaInicioRenta" : "2021-05-27", "fechaFinRenta" : "2021-05-30", "precioRentaDia" : "200",
+"auto": [
+{ "marcaAuto" : "Mercedes", "modeloAuto" : "Fligh","colorAuto" : "negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Edison", "apellido" : "Ayala", "direccion" : "Via Chone",
+"fehcaInicioRenta" : "2020-03-27", "fechaFinRenta" : "2020-03-30", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "Spark","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Andres", "apellido" : "Mercedes", "direccion" : "Rosales",
+"fehcaInicioRenta" : "2021-08-27", "fechaFinRenta" : "2021-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Logan","colorAuto" : "Grisl" }]})
+db.registro_Alquiler.insert({
+"nombre" : "David", "Apellido" : "Perez", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-03-27", "fechaFinRenta" : "2021-03-30", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Azul" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Danny", "Apellido" : "Bedoya", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-09-07", "fechaFinRenta" : "2021-09-10", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "R-25","colorAuto" : "Celeste" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Fredy", "apellido" : "Gavilan", "direccion" : "La lorena",
+"fehcaInicioRenta" : "2021-05-27", "fechaFinRenta" : "2021-05-30", "precioRentaDia" : "200",
+"auto": [
+{ "marcaAuto" : "Mercedes", "modeloAuto" : "Fligh","colorAuto" : "negro" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Edison", "apellido" : "Ayala", "direccion" : "Via Chone",
+"fehcaInicioRenta" : "2020-03-27", "fechaFinRenta" : "2020-03-30", "precioRentaDia" : "100",
+"auto": [
+{ "marcaAuto" : "Chevrolet", "modeloAuto" : "Spark","colorAuto" : "Rojo" }]})
+db.registro_Alquiler.insert({
+"nombre" : "Andres", "apellido" : "Mercedes", "direccion" : "Rosales",
+"fehcaInicioRenta" : "2021-08-27", "fechaFinRenta" : "2021-09-30", "precioRentaDia" : "90",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Logan","colorAuto" : "Grisl" }]})
+db.registro_Alquiler.insert({
+"nombre" : "David", "Apellido" : "Perez", "direccion" : "Santo Domingo",
+"fehcaInicioRenta" : "2021-03-27", "fechaFinRenta" : "2021-03-30", "precioRentaDia" : "150",
+"auto": [
+{ "marcaAuto" : "Renault", "modeloAuto" : "Arkana","colorAuto" : "Azul" }]})
+
+//********************************************************SCRIPT DE mapReduce*************************************************************//
+
+
+
+
+db.runCommand( {
+mapReduce: "registro_Alquiler",
+map: function(){
+for (let index = 0; index < this.auto.length; ++index) {
+let autos = this.auto[ index ];
+emit( autos.marcaAuto + " " + autos.modeloAuto +" "+ autos.colorAuto, 1 );
+}},
+reduce: function(autos, counters){
+count = 0;
+for (let index = 0; index < counters.length; ++index) {
+count += counters[index];
+}
+return count;
+},
+out: { inline: 1 }} )
